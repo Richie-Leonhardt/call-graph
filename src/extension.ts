@@ -87,6 +87,7 @@ const generateGraph = (
             {
                 localResourceRoots: [vscode.Uri.file(staticDir)],
                 enableScripts: true,
+                enableFindWidget: true,
             },
         )
         const dotFileUri = panel.webview.asWebviewUri(dotFile).toString()
